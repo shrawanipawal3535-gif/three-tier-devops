@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: three-tier-devops-frontend:latest
-        imagePullPolicy: IfNotPresent
+        image: shrawanipawal4848/three-tier-devops-frontend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80

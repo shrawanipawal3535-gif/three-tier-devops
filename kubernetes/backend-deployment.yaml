@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: three-tier-devops-backend:latest
-        imagePullPolicy: IfNotPresent
+        image: shrawanipawal4848/three-tier-backend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         env:
