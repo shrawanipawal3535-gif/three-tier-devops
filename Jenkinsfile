@@ -50,11 +50,35 @@ pipeline {
                 sh 'docker push $FRONTEND_IMAGE'
             }
         }
+
+        stage('Deploy to Kubernetes') {
+            steps {
+                sh '''
+                kubectl apply -f kubernetes/mysql-deployment.yaml
+                kubectl apply -f kubernetes/mysql-service.yaml
+                kubectl apply -f kubernetes/backend-deployment.yaml
+                kubectl apply -f kubernetes/backend-service.yaml
+                kubectl apply -f kubernetes/frontend-deployment.yaml
+                kubectl apply -f kubernetes/frontend-service.yaml
+                '''
+            }
+        }
+
+        stage('Verify Deployment') {
+            steps {
+                sh 'kubectl get pods'
+                sh 'kubectl get svc'
+            }
+        }
     }
 
     post {
         success {
-            echo 'Pipeline completed successfully!'
+            echo '🎉 CI/CD Pipeline completed successfully!'
+        }
+
+        failure {
+            echo '❌ Pipeline failed.'
         }
     }
 }
