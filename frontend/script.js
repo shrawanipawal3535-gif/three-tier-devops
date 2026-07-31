@@ -1,4 +1,4 @@
-const API_URL = "http://54.188.96.245:300080";
+const API_URL = "http://44.249.135.231:30080";
 
 async function loadUsers() {
     try {
