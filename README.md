@@ -151,10 +151,18 @@ Add screenshots here:
 
 ### Application
 ![Application](https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171540.png)
-- Jenkins Pipeline: https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171600.png
--  Prometheus Targets: https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171743.png
-- Grafana Dashboard:https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20172134.png
-- Kubernetes Pods:https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20172242.png
+
+### Jenkins Pipeline
+![Jenkins Pipeline](https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171600.png)
+
+### Prometheus Targets
+![Prometheus Targets](https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171743.png)
+
+### Grafana Dashboard
+![Grafana Dashboard](https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20172134.png)
+
+### Kubernetes Pods
+![Kubernetes Pods](https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20172242.png)
 
 ---
 
