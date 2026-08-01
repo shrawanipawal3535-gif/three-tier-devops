@@ -149,7 +149,7 @@ kubectl get svc
 
 Add screenshots here:
 
-- Application
+- Application: https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171540.png
 - Jenkins Pipeline
 - Kubernetes Pods
 - Grafana Dashboard
