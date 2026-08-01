@@ -149,7 +149,8 @@ kubectl get svc
 
 Add screenshots here:
 
-- Application: https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171540.png
+### Application
+![Application](https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171540.png)
 - Jenkins Pipeline: https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171600.png
 -  Prometheus Targets: https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20171743.png
 - Grafana Dashboard:https://github.com/shrawanipawal3535-gif/three-tier-devops/blob/main/screenshots/Screenshot%202026-07-31%20172134.png
